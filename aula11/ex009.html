@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Verificar pais</h1>
+    Digite seu pais: <input type="text" name="txtver" id="txtver">
+    <input type="button" value="Verificar" onclick="Verificar()">
+
+    <div id="res">
+        
+        
+
+
+    </div>
+
+    <script>
+
+function Verificar() {
+
+var txtv = window.document.getElementById ('txtver')
+var res = window.document.querySelector ('div#res')
+var vel = String(txtv.value)
+res.innerHTML = `<p>Voce nasceu no: ${vel}</p>`
+
+
+if (vel == 'Brasil', 'BRASIL', 'brasil'){
+    res.innerHTML += (`<p> Voce é HUEBR</p>`)
+} else{
+
+    res.innerHTML += (`<p> Voce é gringo</p>`)
+
+
+}
+
+
+}
+
+
+
+        </script>
+        
+    
+</body>
+</html>
+
+
