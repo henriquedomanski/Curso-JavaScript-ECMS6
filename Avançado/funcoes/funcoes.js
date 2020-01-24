@@ -55,18 +55,6 @@ console.log(tipoDado('Txt'))
     } )
 
 
-// // Corrija o erro abaixo
-// function precisoVisitar(paisesVisitados) {
-//     var totalPaises = 193;
-//     return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
-//   }
-//   function jaVisitei(paisesVisitados) {
-//     return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
-//   }
-//   console.log(precisoVisitar(20))
-//   console.log(jaVisitei(20))
-
-
 // Corrija o erro abaixo
 
 var totalPaises = 193;
