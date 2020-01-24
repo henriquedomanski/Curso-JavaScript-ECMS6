@@ -8,12 +8,12 @@ var comidaFavorita;
 // Atribuir valor a sua comida favorita
 comidaFavorita = 'Batata frita'
 // Declarar 5 variáveis diferentes sem valores
-var cidade, 
-nomeDaMae, 
-estado, 
-pais, 
-profissao;
+var cidade,
+    nomeDaMae,
+    estado,
+    pais,
+    profissao;
 
 
 
-console.log(nome,idade,comidaFavorita)
+console.log(nome, idade, comidaFavorita)
