@@ -16,7 +16,7 @@ function Pessoa(nome, idade) {
   
   // Crie uma Constructor Function (Dom) para manipulação
   // de listas de elementos do dom. Deve conter as seguintes
-  // propriedades e métodos:
+  // propriedades e métodos:;
   //
   // elements, retorna NodeList com os elementos selecionados
   // addClass(classe), adiciona a classe a todos os elementos
